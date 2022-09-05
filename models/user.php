@@ -1,10 +1,10 @@
 <?php
 
    class User {
-      private $nickname;
+      private $username;
 
-      public function __construct($_nickname)
+      public function __construct($_username)
       {
-         $this->nickname = $_nickname;
+         $this->nickname = $_username;
       }
    }
