@@ -1,6 +1,4 @@
 <?php
 
-   include_once __DIR__ . '/parent-classes/product.php';
-   include_once __DIR__ . '/child-classes/products/food.php';
-
-   
+   include_once './models/product.php' ;
+   include_once './models/products/food.php';

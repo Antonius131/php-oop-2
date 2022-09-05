@@ -1,6 +1,6 @@
 <?php
 
-   require __DIR__ . '/../../parent-classes/product.php';
+   
 
    class Food extends Product {
       private $expirationDate;
