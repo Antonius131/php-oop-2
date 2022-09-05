@@ -13,4 +13,20 @@
          $this->image = $_image;
          $this->description = $_description;
       }
+
+      protected function getName() {
+         return $this->name;
+      }
+
+      protected function getPrice() {
+         return $this->price;
+      }
+
+      protected function getImage() {
+         return $this->image;
+      }
+
+      protected function getDescription() {
+         return $this->description;
+      }
    }
