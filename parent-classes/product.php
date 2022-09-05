@@ -1,12 +1,11 @@
 <?php
-
    class Product {
-      protected $name;
-      protected $price;
-      protected $image;
-      protected $description;
+      private $name;
+      private $price;
+      private $image;
+      private $description;
 
-      function __construct($_name, $_price, $_image, $_description)
+      public function __construct($_name, $_price, $_image, $_description)
       {
          $this->name = $_name;
          $this->price = $_price;
@@ -14,19 +13,19 @@
          $this->description = $_description;
       }
 
-      protected function getName() {
+      public function getName() {
          return $this->name;
       }
 
-      protected function getPrice() {
+      public function getPrice() {
          return $this->price;
       }
 
-      protected function getImage() {
+      public function getImage() {
          return $this->image;
       }
 
-      protected function getDescription() {
+      public function getDescription() {
          return $this->description;
       }
    }
