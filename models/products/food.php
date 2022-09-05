@@ -1,7 +1,5 @@
 <?php
 
-   
-
    class Food extends Product {
       private $expirationDate;
       private $weight;
