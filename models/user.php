@@ -7,4 +7,8 @@
       {
          $this->nickname = $_username;
       }
+
+      public function getUsername() {
+         return $this->username;
+      }
    }
