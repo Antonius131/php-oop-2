@@ -5,7 +5,7 @@
 
       public function __construct($_username)
       {
-         $this->nickname = $_username;
+         $this->setUsername($_username);
       }
 
       // Getter functions

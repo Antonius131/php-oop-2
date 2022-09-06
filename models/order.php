@@ -8,10 +8,10 @@
 
       public function __construct($_productName, $_productQuantity, $_user, $_price)
       {
-         $this->productName = $_productName;
-         $this->productQuantity = $_productQuantity;
-         $this->user = $_user;
-         $this->price = $_price;
+         $this->setProductName($_productName);
+         $this->setProductQuantity($_productQuantity);
+         $this->setUser($_user);
+         $this->setPrice($_price);
       }
 
       // Getter functions

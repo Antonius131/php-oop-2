@@ -8,10 +8,10 @@
 
       public function __construct($_holder, $_number, $_expirationDate, $_cvv)
       {
-         $this->holder = $_holder;
-         $this->number = $_number;
-         $this->expirationDate = $_expirationDate;
-         $this->cvv = $_cvv;
+         $this->setHolder($_holder);
+         $this->setNumber($_number);
+         $this->setExpirationDate($_expirationDate);
+         $this->setCvv($_cvv);
       }
 
       // Getter functions

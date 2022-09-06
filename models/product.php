@@ -7,10 +7,10 @@
 
       public function __construct($_name, $_price, $_image, $_description)
       {
-         $this->name = $_name;
-         $this->price = $_price;
-         $this->image = $_image;
-         $this->description = $_description;
+         $this->setName($_name);
+         $this->setPrice($_price);
+         $this->setImage($_image);
+         $this->setDescription($_description);
       }
 
       // Getter Functions
