@@ -14,6 +14,7 @@
          $this->price = $_price;
       }
 
+      // Getter functions
       public function getProductName() {
          return $this->productName;
       }
@@ -28,5 +29,23 @@
 
       public function getPrice() {
          return $this->price;
+      }
+
+
+      // Setter functions
+      public function setProductName($_productName) {
+         $this->productName = $_productName;
+      }
+
+      public function setProductQuantity($_productQuantity) {
+         $this->productQuantity = $_productQuantity;
+      }
+
+      public function setUser($_user) {
+         $this->user = $_user;
+      }
+
+      public function setPrice($_price) {
+         $this->price = $_price;
       }
    }

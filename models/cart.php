@@ -14,6 +14,7 @@
          $this->total = $_total;
       }
 
+      // Getter functions
       public function getProductsNo() {
          return $this->productsNo;
       }
@@ -28,5 +29,23 @@
 
       public function getTotal() {
          return $this->total;
+      }
+
+
+      // Setter functions
+      public function setProductsNo($_productsNo) {
+         $this->productsNo = $_productsNo;
+      }
+
+      public function setUserOrder($_userOrder) {
+         $this->userOrder = $_userOrder;
+      }
+
+      public function setPaymentCard($_paymentCard) {
+         $this->paymentCard = $_paymentCard;
+      }
+
+      public function setTotal($_total) {
+         $this->total = $_total;
       }
    }

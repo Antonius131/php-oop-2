@@ -13,6 +13,7 @@
          $this->description = $_description;
       }
 
+      // Getter Functions
       public function getName() {
          return $this->name;
       }
@@ -27,5 +28,23 @@
 
       public function getDescription() {
          return $this->description;
+      }
+
+
+      // Setter Functions
+      public function setName($_name) {
+         $this->name = $_name;
+      }
+
+      public function setPrice($_price) {
+         $this->price = $_price;
+      }
+
+      public function setImage($_image) {
+         $this->image = $_image;
+      }
+
+      public function setDescription($_description) {
+         $this->description = $_description;
       }
    }
