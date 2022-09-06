@@ -13,4 +13,20 @@
          $this->expirationDate = $_expirationDate;
          $this->cvv = $_cvv;
       }
+
+      public function getHolder() {
+         return $this->holder;
+      }
+      
+      public function getNumber($number) {
+         $this->number = $number;
+      }
+
+      public function getExpirationDate() {
+         return $this->expirationDate;
+      }
+
+      public function getCvv() {
+         return $this->cvv;
+      }
    }
