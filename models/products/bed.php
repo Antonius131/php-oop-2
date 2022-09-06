@@ -12,4 +12,17 @@ class Bed extends Product {
       $this->height = $_height;
       $this->depth = $_depth; 
    }
+
+   // Getter functions
+   public function getLength() {
+      return $this->length;
+   }
+
+   public function getHeight() {
+      return $this->height;
+   }
+
+   public function getDepth() {
+      return $this->depth;
+   }
 }

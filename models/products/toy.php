@@ -12,4 +12,17 @@
          $this->color = $_color;
          $this->size = $_size; 
       }
+
+      // Getter functions
+      public function getType() {
+         return $this->type;
+      }
+   
+      public function getColor() {
+         return $this->color;
+      }
+   
+      public function getSize() {
+         return $this->size;
+      }
    }

@@ -12,4 +12,17 @@
          $this->weight = $_weight;
          $this->origin = $_origin; 
       }
+
+      // Getter functions
+      public function getExpirationDate() {
+         return $this->expirationDate;
+      }
+   
+      public function getWeight() {
+         return $this->weight;
+      }
+   
+      public function getOrigin() {
+         return $this->origin;
+      }
    }
